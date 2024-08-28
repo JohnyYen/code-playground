@@ -31,17 +31,43 @@
 .right-nav-button, .left-nav-button{
     width: 20px;
     height: 20px;
-    color: beige;
+}
+
+.icon{
+    color: aqua;
 }
 
 .right-nav-button{
     margin-left: 90%;
 }
+
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+span{
+    font-size: 17px;
+    font-weight: 700;
+}
+
 footer{
     width: 100%;
     display: flex;
     align-self: flex-end;
     display: flex;
     align-items: center;
-    
 }

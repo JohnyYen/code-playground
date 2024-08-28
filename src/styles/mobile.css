@@ -1,3 +1,47 @@
 .code-playground{
+    background-color: #111111;
+    border-radius: 5px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
 
+
+.code-space{
+    padding: 10px;
+    display: block;
+    white-space: normal;
+    overflow: hidden;
+    width: 100%;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 5% 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.right-nav-button, .left-nav-button{
+    width: 20px;
+    height: 20px;
+    color: beige;
+}
+
+.right-nav-button{
+    margin-left: 90%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    
 }

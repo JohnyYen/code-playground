@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/cap1.html"
+  to = "./src/pages/cap1.html"
+  status = 200

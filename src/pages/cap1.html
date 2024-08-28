@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://unpkg.com/@antonz/codapi@0.19.7/dist/snippet.css" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+    <link rel="stylesheet" href="./src/styles/mobile.css" media="(min-width: 320px)" type="text/css"/>
+    <link rel="stylesheet" href="./src/styles/tablet.css" media="(min-width: 641px)" type="text/css"/>
+    <link rel="stylesheet" href="./src/styles/computer.css" type="text/css"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C-Playground</title>
+  </head>
+  <body>
+    <div class="page">
+
+      <h1>Capitulo 1: C</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt obcaecati delectus sed excepturi quis? Rem, fugit temporibus nihil ab pariatur tempore nisi autem quam, delectus iure numquam harum id.</p>
+      
+      <pre  class="code-playground">
+        <code data-lang="c" class="code-space">
+          <pre>#include &lt;stdio.h&gt;</pre>
+          <pre>int main(){</pre>
+          <pre>printf("Hello World");</pre>
+          <pre>return 0;</pre>
+          <pre>}</pre>
+        </code>
+      </pre>
+
+      <codapi-snippet sandbox="gcc" editor = "basic">
+      </codapi-snippet>
+      
+      <footer>
+        <a class="left-nav-button" href="../../index.html"><box-icon type='solid' name='left-arrow'></box-icon></a>
+        <a class="right-nav-button" href="./pages/cap1.html"><box-icon type='solid' name='right-arrow'></box-icon></a>
+      </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@antonz/codapi@0.19.7/dist/snippet.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
